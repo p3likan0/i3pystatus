@@ -22,5 +22,6 @@ setup(name="i3pystatus",
               "i3pystatus-setting-util = i3pystatus.tools.setting_util:main"
           ]
       },
+      data_files=[('man/man1', ['i3pystatus.1'])],
       zip_safe=True,
       )
